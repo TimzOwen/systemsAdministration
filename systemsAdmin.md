@@ -273,3 +273,53 @@ experiment  with Internet information Service
 
 
 ### Configuring DNS
+
+dnsmasq---->program that provides DNS,DHCP,TFTP and PXE services in a simple package
+
+installing dsnmasq
+
+    sudo apt install dsnamsq
+
+check for config of localhost server
+
+query domain of the local host
+
+    dig www.example.com @localhost
+
+You can stop with
+
+    sudo service dnsmasq stop
+
+Enter debug mode and query asked
+
+    sudo dnsmasq -d -q
+
+To check if query received and sent on debug terminal
+
+    dig www.example.com @localhost
+
+### DhCP configuration
+
+experiment with a sample server
+
+show IP address:
+
+    ip address show eth_srv
+    
+    ip address show eth_cli
+    
+check contents
+
+    cat dhcp.conf
+    
+dhcp to start listening from queries
+
+    sudo dnsmaq -d -q -C dhcp.conf  
+    
+Run dhscp client on terminal 2
+
+    sudo dhclient -i eth _cli -v
+    
+    ip address shoew eth_cli ---->check if ip was assigned
+    
+    dig @locaclhost instance-1.example
