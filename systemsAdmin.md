@@ -224,3 +224,52 @@ check services configured to run
     Get-Service wuaserv | Format-List
 
 ### Service Configuration Linux
+
+check running services
+
+    sudo systemctl --state=running
+
+Reload: --> Make the service restart without stopping:
+
+Experiment with local server: VSFTPD
+
+install:
+
+    sudo apt install vsftpd
+
+query status
+
+    service vsftpd status
+
+connect to server with ftp
+
+    lftp localhost
+
+enable anonymous connection
+
+    sudo vim /etc/vsftpd.conf
+
+    change anonymous = True
+
+Reload to activate changes
+
+    sudo service vsftpd reload
+
+### Service Configuration Windows
+
+experiment  with Internet information Service
+
+    from control panel
+
+    Enable IIS feature
+
+    check the Web service on
+
+    Install the rest are default
+
+    open IIs, add a web server host
+
+    check the localhost on your web browser
+
+
+### Configuring DNS
