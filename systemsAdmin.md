@@ -134,3 +134,93 @@ Cloud services provided
 
 
 #### Physical Infrastructure
+
+Server Operating System-Regular os that are optimized for server functionality
+
+[Server Operating System](https://www.pcworld.idg.com.au/article/151491/server_operating_systems/)
+
+Remote Access: Linux
+
+[Open SSH](https://en.wikipedia.org/wiki/OpenSSH)
+
+    sudo apt-get install openssh-client
+
+Remote Access: Windows
+
+[Using Putty](https://en.wikipedia.org/wiki/PuTTY)
+
+[Remote Desktop](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+
+[Windows Remote Management](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+
+
+#### Network Services
+
+[FTP Clients](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software)
+[PXE boot to online softwares](https://en.wikipedia.org/wiki/Preboot_Execution_Environment)
+
+File Transfer Service (FTS):
+
+    FTP-File Transfer Protocol -->Transfer data through the internet: No Encryption but got Authentication
+
+    SFTP -Secure File Transfer Protocol -->SHH Encryption Authentication and Encryption present
+
+    TFTP - Trivial FTP -->No Encryption/Authentication
+
+Network Time Protocol (NTP):
+
+    keep time for machine synchronization on the internet
+
+Proxy Server:
+
+    Intermediary between company's network and the internet
+
+[Power DNS](https://blog.dnsimple.com/2015/02/top-dns-servers/)
+
+DHCp--->Automatic assignment of IP addresses
+
+[DHCP software](https://blog.dnsimple.com/2015/02/top-dns-servers/)
+
+Troubleshoot Network Issues:
+
+    use nslook up to check for correct addressing
+
+        nslookup www.google.com
+
+    use ping to check configuration
+
+        ping www.google.com
+
+#### Managing Services in Linux:
+
+check NTP service running:
+
+    service ntp status
+
+stop a set date or time:
+
+    sudo date -s "2017-01-01" 00:00:00
+
+    sudo service ntp stop
+
+start
+
+    sudo service ntp start
+
+Restart NTP
+
+    sudo service ntp restart
+
+#### Managing service in Windows
+
+Software update powershell:
+
+check for updates
+
+    Get-Service wuaserv
+
+check services configured to run
+
+    Get-Service wuaserv | Format-List
+
+### Service Configuration Linux
