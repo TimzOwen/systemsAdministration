@@ -91,3 +91,46 @@ Reproduction case:
 
     creating a road map to retrace the steps that led to the user to unexpected outcome
 
+### IT infrastructure services
+
+#### Types of IT infrastructure services
+
+Amazon EC2
+
+Linode
+
+Windows Azure
+
+Google Compute Engine
+
+
+Cloud services provided
+
+    IaaS - Amazon EC2 -Linode -Windows Azure -Google Compute Engine
+    
+    NaaS
+
+    PaaS - Heroku-Windows Azure -Google App Engine
+
+    users -Windows Active Directory -OpenLDAP
+
+    DaaS
+
+#### Readings on IT Infrastructure service:
+
+[IaaS](https://www.techrepublic.com/blog/the-enterprise-cloud/side-by-side-comparisons-of-iaas-service-providers/)
+
+[NaaS](https://en.wikipedia.org/wiki/Network_as_a_service)
+
+[SaaS](http://www.businessinsider.com/the-most-popular-cloud-apps-used-at-work-2015-8)
+
+[PaaS](https://www.techradar.com/best/best-paas-providers)
+
+[DaaS -Amazon](https://aws.amazon.com/cloud-directory/)
+
+[DaaS-JumpCloud](https://aws.amazon.com/cloud-directory/)
+
+[DaaS -Azure](https://azure.microsoft.com/en-us/services/active-directory/)
+
+
+#### Physical Infrastructure
