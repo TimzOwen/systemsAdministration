@@ -112,3 +112,71 @@ Network File Storage
 [Mobile data synchronization Android](https://support.google.com/android/answer/2819582?hl=en)
 
 [Mobile data synchronization IoS](https://support.apple.com/HT203977#icloud)
+
+
+### Printers and server printers
+
+[printer Technologies](https://en.wikipedia.org/wiki/Inkjet_printing)
+
+[Inkjet printer](https://computer.howstuffworks.com/inkjet-printer.htm)
+
+[Laser Printers](https://en.wikipedia.org/wiki/Laser_printing)
+
+[How Laser works](https://computer.howstuffworks.com/laser-printer.htm)
+
+[Dot matrix printers ](https://en.wikipedia.org/wiki/Dot_matrix_printer)
+
+[Thermal printers](https://en.wikipedia.org/wiki/Thermal_printing)
+
+[3D printers](https://en.wikipedia.org/wiki/3D_printing)
+
+[How it works](https://en.wikipedia.org/wiki/3D_printing_processes)
+
+[3D types printing machines](https://3dinsider.com/3d-printer-types/)
+
+[Windows Connection printer](https://support.microsoft.com/help/4027370/windows-10-view-the-print-queue)
+
+[Mac OS printer connection](https://support.apple.com/guide/mac-help/mchle453335f/mac)
+
+[Ubuntu printer connect](https://help.ubuntu.com/stable/ubuntu-help/printing-setup-default-printer.html)
+
+
+Installing printers
+
+[Windows OS](https://support.microsoft.com/help/4015386/windows-10-install-printer)
+
+[Mac Os](https://support.apple.com/guide/mac-help/mh14004/mac)
+
+[Mac-Windows](https://support.apple.com/guide/mac-help/mac-print-a-printer-connected-windows-mchlp2437/mac)
+
+[ubuntu OS ](https://help.ubuntu.com/stable/ubuntu-help/printing.html)
+
+Virtual printers
+
+[Document writer](https://docs.microsoft.com/windows/win32/printdocs/microsoft-xps-document-writer)
+
+[save PDF on Mac](https://support.apple.com/guide/mac-help/mchlp1531/mac)
+
+[Ubuntu print](https://help.ubuntu.com/stable/ubuntu-help/printing-to-file.html)
+
+Printer sharing on network
+
+[Windows](https://support.microsoft.com/help/4089224/windows-10-share-network-printer)
+
+[Mac](https://support.apple.com/guide/mac-help/mchlp2424/mac)
+
+[Add printer Mac](https://support.apple.com/guide/mac-help/mh14004/10.14/mac/10.14)
+
+Network Printers
+
+[Windows](https://support.microsoft.com/help/4015386/windows-10-install-printer)
+
+[Mac Os](https://support.apple.com/guide/mac-help/mh14004/10.14/mac/10.14)
+
+[Ubuntu](https://help.ubuntu.com/community/NetworkPrintingWithUbuntu#Printing_from_Ubuntu)
+
+printing servers
+
+[print doc service overview](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831468(v=ws.11))
+
+[ubuntu - CUPS print Server](https://help.ubuntu.com/lts/serverguide/cups.html)
