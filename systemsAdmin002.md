@@ -88,13 +88,21 @@ SSL ---->Secure Socket Layer Protocol(Secure communication between web and clien
 [File services handling](https://www.cloudwards.net/comparison/)
 
 Network File Storage
+
     FAT32
+    
     NFS-->Network File System
+    
         ->Enables Files to be shared over a network
+        
         -> Can access Files using the NFS Server and Connection
+        
     Samba --->file software that Works for Windows
+    
           ---SMB is a n implementation of samba
+          
     NAS-->Network Attached Storage
+    
         ->Computers designed specific for File storage and Ops
 
 [SMB Reading](https://technet.microsoft.com/en-us/library/hh831795(v=ws.11).aspx)
