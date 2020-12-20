@@ -69,3 +69,38 @@ MX Record--->Email exchange record
 #### Configuring user productivity
 
 
+#### Configuring user productivity
+
+Always review terms for each s/w you provide for your team and their licence.
+
+#### Configuring security services
+
+Ensure well encryption for any data being used
+
+HTTP-S---make sure your URLs has the Secure part if the web communication browsing capability
+
+TLS------>Transport Layer Security (keep communication secure over a network)
+
+SSL ---->Secure Socket Layer Protocol(Secure communication between web and client server)
+
+### File Services
+
+[File services handling](https://www.cloudwards.net/comparison/)
+
+Network File Storage
+    FAT32
+    NFS-->Network File System
+        ->Enables Files to be shared over a network
+        -> Can access Files using the NFS Server and Connection
+    Samba --->file software that Works for Windows
+          ---SMB is a n implementation of samba
+    NAS-->Network Attached Storage
+        ->Computers designed specific for File storage and Ops
+
+[SMB Reading](https://technet.microsoft.com/en-us/library/hh831795(v=ws.11).aspx)
+
+[NFS server software](http://www.linuxfromscratch.org/blfs/view/cvs/basicnet/nfs-utils.html)
+
+[Mobile data synchronization Android](https://support.google.com/android/answer/2819582?hl=en)
+
+[Mobile data synchronization IoS](https://support.apple.com/HT203977#icloud)
