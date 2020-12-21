@@ -180,3 +180,73 @@ printing servers
 [print doc service overview](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831468(v=ws.11))
 
 [ubuntu - CUPS print Server](https://help.ubuntu.com/lts/serverguide/cups.html)
+
+
+
+### Platform services
+
+Enables developers to build code and ship softwares without many configurations
+
+Web servers:
+
+    most used is Apache server
+
+[web servers](https://stackshare.io/stackups/apache-httpd-vs-microsoft-iis-vs-nginx)
+
+[Database Admins](https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm)
+
+[Types of Database](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+
+#### Diagnose a faulty website
+
+HTTP status code:
+
+    shows numbers incase of errors when accessing a web service
+
+    4XX ---Codes indicate issues on Client slide
+
+    5XX --->Server side code error
+
+    2XX -->Successful request
+
+[Troubleshooting with Chrome Developer Tools](https://developer.chrome.com/devtools)
+
+[List of HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+### Managing Cloud Resources
+
+SaaS--->Software as a Service
+
+    The software is already pre configured and the user isn't deeply involved in the cloud configuration
+
+IaaS---Infrastructure as a Service
+
+    Hosting your own service in the cloud
+
+    you decide how you want the infrastructure to look,depending on what you want ot run on it
+
+public cloud--cloud services provided by third party
+
+private cloud-->When your company owns the services and the entire infrastructure both onsite/remote data center
+
+Hybrid cloud-->mix of both private and public cloud
+
+#### Cloud infrastructure Setups
+
+Load balancer:
+
+    Ensures each VM receives a number a balanced number of queries
+
+Autoscaling:
+
+    service increase/decrease as needed .
+
+    service owner only pays for the active ones in use
+
+Service:
+
+    Monitoring
+
+    Alerting
+
+### 
