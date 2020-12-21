@@ -249,4 +249,47 @@ Service:
 
     Alerting
 
-### 
+### Popular Cloud providers
+
+[Microsoft Azure](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
+
+[Amazon ](https://aws.amazon.com/getting-started/)
+
+[Google Cloud](https://cloud.google.com/docs/overview/)
+
+
+#### commandline interface to create a VM
+
+    gcloud compute instances create linux-instance --zone=us-central1-f --machine-type=n1-standard-1 --subnet=default  --tags=http-server --image=ubuntu-1604-xenial-v20190628 --image-project=ubuntu-os-cloud --boot-disk-size=10GB
+
+    gcloud compute firewall-rules create default-allow-http --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:80 --source-ranges=0.0.0.0/0 --target-tags=http-server
+
+Windows instance
+
+    gcloud compute instances create windows-instance --zone=us-central1-f --machine-type=n1-standard-1 --subnet=default --image=windows-server-2016-dc-v20190709 --image-project=windows-cloud --boot-disk-size=50GB
+
+list all instance
+
+    gcloud compute instances list
+
+Time to connect to linux
+
+    gcloud compute ssh linux-instance --zone us-central1-f
+    
+make an update
+
+    sudo apt update
+
+install nginx software
+
+    sudo apt install nginx
+
+#### creating an additional disk
+
+Has NAme,source,Type and size
+
+    gcloud compute disks create additional-disk --type=pd-standard --size=500GB --zone=us-central1-f
+
+Attach disk to instance
+
+     gcloud compute instances attach-disk windows-instance --disk additional-disk
