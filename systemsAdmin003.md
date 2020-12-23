@@ -214,3 +214,70 @@ update-->
 [GP Result command](https://technet.microsoft.com/en-us/library/cc733160(v=ws.11.).aspx)
 
 [Create WMI](https://technet.microsoft.com/en-us/library/cc770562(v=ws.11).aspx)
+
+
+#### Mobile Device Management
+
+controls Profile and policies
+
+Remote wipe:
+
+    A factory reset that you can trigger from your central MDM, rather than having to do it in person on the device
+
+Enterprise Mobility management  (EMM):--> Creating a distributing the policies across different Mobile OS
+
+#### Supplementary Reading for MDM:
+
+[IoS MDM payload list ](https://support.apple.com/guide/mdm/payload-list-mdm5370d089/web)
+
+[Android settings](https://support.google.com/a/answer/6328708#apply)
+
+[ios intro to Profile Manager](https://support.apple.com/guide/server/intro-to-profile-manager-apd0e2214c6/mac)
+
+[ios MDM settings payload](https://support.apple.com/guide/mdm/payload-list-mdm5370d089/web)
+
+[Android get started with Google Mobile Management](https://support.google.com/a/answer/7396025)
+
+[Apply settings for Mobile Devices](https://support.google.com/a/answer/7396025)
+
+
+### OpenLDAP (Lightweight Directory Access Protocol)
+
+Free opensource Manager for Directory
+
+LDAP Data Interchange Fomart:
+
+    you can auth, Add or Remove Users,Groups
+
+    used on All Os
+
+you ca work from:
+
+    command Line
+    php LDAP Admin--(Web UI to manage)
+
+Installing:
+
+    sudo apt -get install slapd ldap-utils
+
+    sudo dpkg-reconfigure slapd ----> to reconfigure our setting
+
+[Installing OpenLDAP and PHPAdmin for ubuntu ](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04)
+
+[OpenLDAP org ](https://www.openldap.org/doc/admin24/slapdconf2.html)
+
+#### Managing OpenLDAP
+
+Using CommandLine to manage. You need LDIF Files.
+
+    ldapadd-->Takes the input of LDIF file and adds the context of the file
+
+    ldapmodify-->modify an existing object
+
+    ldapdelete-->remove object that the LDIF file refers to
+
+    ldapsearch-->search for entries in your directory db
+
+[Data interchange format ](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
+
+[using LDIF files to make changes to an OpenLDAP system](https://www.digitalocean.com/community/tutorials/how-to-use-ldif-files-to-make-changes-to-an-openldap-system)
