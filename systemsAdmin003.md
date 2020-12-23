@@ -151,3 +151,66 @@ Functional Level-Desc features it support
     Get-AdDomain
 
 [Forest and Domain Functional Levels](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels)
+
+
+#### Group policy
+
+GPO-Group object policy:
+
+    set of policies and preferences that can be applied to a group of objects in the directory
+
+    Groups all the users and must follow the set policy
+
+security Filtering
+
+WMI Filters
+
+policies: Settings that are reapplied every minute  and aren't meant to be changed even by local administrators
+
+Group policy:  a template setting
+
+Windows Registry:
+
+    hierarchical db of settings that windows, and many windows application use for storing configuration data.
+
+#### Group policy inheritance and Precedence.
+
+Tool:
+
+Group Policy Management Console (GPMC):
+
+WMI--->Windows Management Instrumentation
+
+Can run GPMC.MSE from command line
+
+RSOP----> adding all group policies together for specific machine and apply precedence
+
+#### Group policy Troubleshooting
+
+DNS Records--Established computer connection to the DNS server
+
+     _ldap._tcp.dc._msdcs.DOMAIN.NAME
+
+     on cmd ps--> Resolve-DNSName -Type SRV -Name _ldap._tcp.dc._msdcs.example.com
+
+Fast Logon Optimization:---->Changes application
+ 
+update-->
+
+    gpupdate/force
+
+    gpupdate/force/sync----Logout everyone on the computer
+
+[Force Group policy resync](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/windows-time-service/how-the-windows-time-service-works)
+
+[Manually force a domain](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb491016(v=technet.10))
+
+[Troubleshoot AD Replica](https://msdn.microsoft.com/en-us/library/bb727055.aspx)
+
+[GPO control on sccope](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772166(v=ws.11))
+
+[Controling GPO](https://technet.microsoft.com/en-us/library/jj134176(v=ws.11).aspx)
+
+[GP Result command](https://technet.microsoft.com/en-us/library/cc733160(v=ws.11).aspx
+
+[Create WMI](https://technet.microsoft.com/en-us/library/cc770562(v=ws.11).aspx)
