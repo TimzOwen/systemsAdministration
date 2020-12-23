@@ -211,6 +211,6 @@ update-->
 
 [Controling GPO](https://technet.microsoft.com/en-us/library/jj134176(v=ws.11).aspx)
 
-[GP Result command](https://technet.microsoft.com/en-us/library/cc733160(v=ws.11).aspx
+[GP Result command](https://technet.microsoft.com/en-us/library/cc733160(v=ws.11.aspx)
 
 [Create WMI](https://technet.microsoft.com/en-us/library/cc770562(v=ws.11).aspx)
