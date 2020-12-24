@@ -144,30 +144,30 @@ Learn from some mistakes and root cause and how to prevent them
 
 2. Detailed time line
 
-    when it started
+        when it started
 
-    people notified
+        people notified
 
-    correct time zones,date and
+        correct time zones,date and
 
-    Actions takes
+        Actions takes
 
 3. Root cause
 
-    what led to the issue
+          what led to the issue
 
-    what can be learned
-
+          what can be learned
+    
 4. Resolution and Recovery efforts
 
-    steps taken to resolve
+          steps taken to resolve
 
-    time zones also included
+          time zones also included
 
 5. Actions to avoid same scenario
 
-    Action taken to improve and prevent it
+         Action taken to improve and prevent it
 
-    monitoring systems
+         monitoring systems
 
-    what went well
+         what went well
